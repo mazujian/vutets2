@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VuxMain - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4C9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:/Visual_Unit_4/Samples/DemoTest/Demo/TestProject/" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/VuxMain.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_1T_Begin.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_1U_Begin.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_1Y_Begin.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_2T_SendMail.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_2U_SendMail.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_2Y_SendMail.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_3T_MyClass.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_3U_MyClass.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_3Y_MyClass.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_4T_DataBasic.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_4U_DataBasic.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_5T_InsideIO.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_5U_InsideIO.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_6T_WhiteBox.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_6U_WhiteBox.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_7T_EditCaseCode.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_7U_EditCaseCode.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_8Y_String.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\CMapStringToPtr.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\CString.cpp"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\student.c"
+"C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\VuxMain.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4C9.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4DA.tmp" with contents
+[
+vuxwin.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/VuxMain.pdb" /debug /machine:I386 /out:"Debug/VuxMain.exe" /pdbtype:sept /libpath:"C:/Visual_Unit_4/lib" 
+.\Debug\_1T_Begin.obj
+.\Debug\_1U_Begin.obj
+.\Debug\_1Y_Begin.obj
+.\Debug\_2T_SendMail.obj
+.\Debug\_2U_SendMail.obj
+.\Debug\_2Y_SendMail.obj
+.\Debug\_3T_MyClass.obj
+.\Debug\_3U_MyClass.obj
+.\Debug\_3Y_MyClass.obj
+.\Debug\_4T_DataBasic.obj
+.\Debug\_4U_DataBasic.obj
+.\Debug\_5T_InsideIO.obj
+.\Debug\_5U_InsideIO.obj
+.\Debug\_6T_WhiteBox.obj
+.\Debug\_6U_WhiteBox.obj
+.\Debug\_7T_EditCaseCode.obj
+.\Debug\_7U_EditCaseCode.obj
+.\Debug\_8Y_String.obj
+.\Debug\CMapStringToPtr.obj
+.\Debug\CString.obj
+.\Debug\student.obj
+.\Debug\VuxMain.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE4DA.tmp"
+<h3>Output Window</h3>
+Compiling...
+_1T_Begin.c
+_1U_Begin.c
+_1Y_Begin.c
+_2T_SendMail.c
+_2U_SendMail.c
+_2Y_SendMail.c
+_3T_MyClass.cpp
+_3U_MyClass.cpp
+_3Y_MyClass.cpp
+_4T_DataBasic.cpp
+c:\visual_unit_4\samples\demotest\demo\testproject\code\demo\_4t_databasic.cpp(293) : warning C4101: 'k' : unreferenced local variable
+c:\visual_unit_4\samples\demotest\demo\testproject\vuxinter\demo\_4t_databasic.cpp\_15_callbackdefine_63619ad7.h(38) : warning C4101: 'k' : unreferenced local variable
+_4U_DataBasic.cpp
+C:\Visual_Unit_4\Samples\DemoTest\Demo\TestProject\Code\Demo\_4U_DataBasic.cpp(120) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\visual_unit_4\samples\demotest\demo\testproject\vuxinter\demo\_4u_databasic.cpp\_09_emptyobject2_eb730695.h(27) : warning C4305: '=' : truncation from 'const double' to 'float'
+_5T_InsideIO.cpp
+_5U_InsideIO.cpp
+_6T_WhiteBox.cpp
+_6U_WhiteBox.cpp
+_7T_EditCaseCode.cpp
+_7U_EditCaseCode.cpp
+_8Y_String.c
+CMapStringToPtr.cpp
+CString.cpp
+student.c
+VuxMain.cpp
+c:\visual_unit_4\samples\demotest\demo\testproject\code\demo\student.c(334) : warning C4715: 'vux_user_main' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+VuxMain.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

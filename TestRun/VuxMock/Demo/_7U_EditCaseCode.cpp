@@ -1,0 +1,11 @@
+
+#ifndef __MCK_DEMO__7U_EDITCASECODE_CPP__
+#define __MCK_DEMO__7U_EDITCASECODE_CPP__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+#include "Typedef2.h"
+
+#endif

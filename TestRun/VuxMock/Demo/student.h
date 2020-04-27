@@ -1,0 +1,10 @@
+
+#ifndef __MCK_DEMO_STUDENT_H__
+#define __MCK_DEMO_STUDENT_H__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+
+#endif

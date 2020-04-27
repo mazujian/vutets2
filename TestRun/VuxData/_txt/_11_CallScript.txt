@@ -1,0 +1,12 @@
+@$@name	type	c_1_i	c_1_o	c_2_i	c_2_o	c_3_i	c_3_o
+@$@case desc	1,		1		2		3
+@$@pMyData	3,						
+@$@pMyData->ptr	2,	$address(gSData@G)		$ptrcpy(gpSData@G)			
+@$@pMyData->ptr->a	1,		1234		1234		
+@$@pMyData->pptr	2,					$address(gpSData@G)	
+@$@pMyData->pptr->a	1,						1234
+@$@gSData@G	2,						
+@$@gSData@G.a	1,	1234					
+@$@gSData@G.b	1,		0				
+@$@gpSData@G	2,						
+@$@gpSData@G->a	1,			1234		1234	

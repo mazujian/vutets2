@@ -1,0 +1,12 @@
+
+#ifndef __MCK__COMPILER_GCC_4_INCLUDE_SYS_STDIO_H__
+#define __MCK__COMPILER_GCC_4_INCLUDE_SYS_STDIO_H__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+#include "cdefs.h"
+#include "lock.h"
+
+#endif

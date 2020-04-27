@@ -1,0 +1,11 @@
+
+#ifndef __MCK_USR_INCLUDE_MACHINE__TYPES_H__
+#define __MCK_USR_INCLUDE_MACHINE__TYPES_H__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+#include "_default_types.h"
+
+#endif

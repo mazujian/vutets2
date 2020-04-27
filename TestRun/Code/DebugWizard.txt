@@ -1,0 +1,19 @@
+可以按以下步骤建立针对测试代码的调试工程。测试工程的目录为：
+C:/Visual_Unit_4/Samples/DemoTest/Demo/TestProject/
+
+1. 在测试工程目录下建立一个空工程(以下称为调试工程)。
+
+2. 将测试工程目录下的以下文件加入调试工程：
+C:/Visual_Unit_4/Samples/DemoTest/Demo/TestProject/Code/VuxMain.cpp
+
+3. 将以下目录下的所有源文件加入调试工程：
+C:/Visual_Unit_4/Samples/DemoTest/Demo/TestProject/Code/
+
+4. 在头文件搜索目录中添加：
+C:/Microsoft Visual Studio 6.0/vc98/include/,C:/Microsoft Visual Studio 6.0/vc98/mfc/include/,C:/Microsoft Visual Studio 6.0/vc98/atl/include/,C:/Visual_Unit_4/Samples/DemoTest/Demo/TestProject/
+
+5. 添加库文件搜索目录：
+C:/Visual_Unit_4/lib
+
+6. 添加以下库文件：
+vuxwin.lib

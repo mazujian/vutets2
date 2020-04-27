@@ -1,0 +1,11 @@
+
+#ifndef __MCK_DEMO_SENDMAIL_H__
+#define __MCK_DEMO_SENDMAIL_H__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+#include "TypeDef.h"
+
+#endif

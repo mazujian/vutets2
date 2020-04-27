@@ -1,0 +1,11 @@
+
+#ifndef __MCK__COMPILER_VC2015_MINI_INCLUDE_UCRT_CORECRT_H__
+#define __MCK__COMPILER_VC2015_MINI_INCLUDE_UCRT_CORECRT_H__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+#include "VuxMock/_Compiler/VC2015-Mini/include/vcruntime.h"
+
+#endif

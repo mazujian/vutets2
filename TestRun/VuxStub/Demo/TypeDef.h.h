@@ -1,0 +1,24 @@
+
+//$$VUNIT(BEGIN,CUSTOMIZE_AREA)
+//!4 这里添加的代码，刷新时会予保留。让下一行代码有效可屏蔽本文件的桩代码。
+//#define VUXIS_DEMO_TYPEDEF_H
+//$$VUNIT(END,CUSTOMIZE_AREA)
+
+#ifndef VUXIS_DEMO_TYPEDEF_H
+
+
+//$$VUNIT(BEGIN,TESTSTUB/gSData#SDATA)
+SDATA gSData;
+//$$VUNIT(END,TESTSTUB/gSData#SDATA)
+
+
+//$$VUNIT(BEGIN,TESTSTUB/gpSData#SDATA*)
+SDATA* gpSData = 0;
+//$$VUNIT(END,TESTSTUB/gpSData#SDATA*)
+
+
+//$$VUNIT(BEGIN,TESTSTUB/gDataA#tagDATA_A)
+DATA_A gDataA;
+//$$VUNIT(END,TESTSTUB/gDataA#tagDATA_A)
+
+#endif

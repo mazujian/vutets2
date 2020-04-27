@@ -1,0 +1,11 @@
+
+#ifndef __MCK_DEMO_CMAPSTRINGTOPTR_CPP__
+#define __MCK_DEMO_CMAPSTRINGTOPTR_CPP__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+#include "CMapStringToPtr.h"
+
+#endif

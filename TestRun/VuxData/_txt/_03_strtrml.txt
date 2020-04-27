@@ -1,0 +1,4 @@
+@$@name	type	c_1_i	c_1_o	c_2_i	c_2_o	c_3_i	c_3_o	c_4_i	c_4_o	c_5_i	c_5_o
+@$@case desc	1,	用NULL表示空指针									
+@$@str	1,	NULL	NULL	"    abcde"	"abcde"	"abcde"	"abcde"	"abcde   "	"abcde   "	""	""
+@$@return	1,		NULL		"abcde"		"abcde"		"abcde   "		""

@@ -1,0 +1,11 @@
+
+#ifndef __MCK_VC_INCLUDE_SWPRINTF_INL__
+#define __MCK_VC_INCLUDE_SWPRINTF_INL__
+
+
+//$$VUNIT(BEGIN,VMOCKADDGLOBAL)
+//$$VUNIT(END,VMOCKADDGLOBAL)
+
+#include "vadefs.h"
+
+#endif
